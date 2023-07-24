@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Leaf</title>
+    <link rel="icon" type="image/x-icon" href="./favicon_io (2)/favicon-32x32.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,900;1,100;1,200;1,300;1,400;1,500&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        body{
+            background-image: url(./assets/abstract-space-wallpaper-background-dark-smoke-design.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+        .blur{
+            filter: blur(4px) grayscale();
+            transition: all 0.5s;
+        }
+        .blur:hover{
+            filter: blur(0px);
+        }
+        .navbar{
+            width: 1200px;
+            margin: auto;
+            margin-top: 30px;
+        }
+        .logo{
+            float: left;
+        }
+        .logo a{
+            text-decoration: none;
+            color: white;
+        }
+        .logo a h1{
+            font-size: 55px;
+            float: left;
+            margin-right: 15px;
+            font-family: 'Poppins', sans-serif;
+
+        }
+        .logo a img{
+            height: 50px;
+            margin-top: 16px;
+            float: right;
+        }
+        .ulnav ul{
+            float: right;
+            margin-top: 25px;
+        }
+        .ulnav li{
+            float: left;
+            list-style: none;
+            margin-left: 30px;
+        }
+        .ulnav ul li a{
+            color: white;
+            text-decoration: none;
+            border: 2px solid white;
+            border-radius: 10px;
+            padding: 5% 20px;
+            transition: all 0.3s;
+        }
+        .ulnav ul li a:hover{
+            background-color: rgba(255, 204, 0, 0.831);
+            border: 2px solid rgba(255, 204, 0, 0.831);
+            color: black;
+        }
+        .clear{
+            clear: both;
+        }
+        .container{
+            width: 1140px;
+            margin: auto;
+            margin-top: 100px;
+        }
+        
+        .col-6{
+            width: 50%;
+            float: left;
+            text-align: center;
+        }
+        .col-6 h1{
+            color: white;
+            margin-bottom: 40px;
+        }
+        .col-6 p{
+            color: rgba(255, 204, 0, 0.831);
+        }
+        .col-6 img{
+            /* float: left; */
+            padding: 20px;
+            margin: auto;
+            margin-left: 80px;
+            width: 50%;
+            transition: all 1s ease;
+        }
+        .col-6 img:hover{
+            transform: rotate(10turn);
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo blur">
+            <a href="#">
+            <h1>GOLD LEAF</h1>
+            <img src="./assets/035a90d5-946f-4da5-bc83-368e272fb8b2.jpg_John+Player+Gold+Leaf-removebg-preview.png" alt="">
+        </a>
+        </div>
+        <div class="ulnav">
+            <ul>
+                <li class="blur" ><a href="#">Home</a></li>
+                <li class="blur" ><a href="#">Contact</a></li>
+                <li class="blur" ><a href="#">Section</a></li>
+                <li class="blur" ><a href="#">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="clear"></div>
+    <div class="container">
+         <div class="sectionone">
+            <div class="col-6">
+                <h1 class="blur" >GOLD LEAF</h1>
+                <p class="blur" >As of 2020, the Player's Navy Cut, Players and John Player Special (JPS) brands are manufactured by Imperial Brands in the UK, whereas John Player Gold Leaf is manufactured by British American Tobacco (in some countries), and ranks as one of the best selling and most popular tobacco products in Pakistan.</p>
+            </div>
+            <div class="col-6">
+                <img class="blur" src="./assets/cigarette.png" alt="">
+            </div>
+         </div>
+    </div>
+</body>
+
+</html>
